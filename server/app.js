@@ -5,7 +5,6 @@ const chalk = require('chalk')
 const graphHttp = require('express-graphql')
 const cors = require('cors')
 
-
 const schema = require('../schemas/schema')
 
 const url = `mongodb+srv://${config.get('user')}:${config.get('password')}@cluster0-nkstn.mongodb.net/cinema?retryWrites=true&w=majority`
