@@ -5,7 +5,7 @@ import theme from './components/theme';
 import ApolloClient from 'apollo-boost'
 import { ApolloProvider } from 'react-apollo'
 const client = new ApolloClient({
-  uri: 'http://localhost:5000/graphql'
+  uri: 'http://localhost:5624/graphql'
 })
 
 class App extends Component {
